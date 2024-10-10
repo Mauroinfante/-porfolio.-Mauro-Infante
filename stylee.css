@@ -1,0 +1,232 @@
+/* Global */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menú */
+.menu {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    cursor: pointer; /* Agrega cursor */
+  }
+  
+  .menu a:hover {
+    color: #ccc;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu li:hover {
+    background-color: #5d29cc;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+/* Sección Inicio */
+.seccion-inicio {
+    background-color: #e8e1f5;
+    padding: 2rem;
+    text-align: center;
+}
+
+.imagen-perfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    margin: 20px auto;
+    
+}
+
+/* Sección Proyectos */
+.seccion-proyectos {
+    padding: 2rem;
+}
+
+.contenedor-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyecto {
+    margin: 20px;
+    width: calc(33.33% - 20px);
+}
+
+.imagen-proyecto {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Sección Contacto */
+.seccion-contacto {
+    background-color: #f7f7f7;
+    padding: 2rem;
+    text-align: center;
+}
+
+.enlace-redes {
+    color: #333;
+    text-decoration: none;
+}
+
+.enlace-redes:hover {
+    color: #666;
+}
+
+/* Sección Sobre mí */
+.seccion-sobremi {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+/* Pie de página */
+.pie-pagina {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .menu li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .proyecto {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .imagen-perfil {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .imagen-proyecto {
+        height: 100px;
+    }
+}
+
+.seccion-contacto {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .seccion-contacto h2 {
+    margin-bottom: 20px;
+  }
+  
+  .campo-formulario {
+    margin-bottom: 20px;
+  }
+  
+  .campo-formulario label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .campo-formulario input, .campo-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .informacion-contacto {
+    margin-top: 40px;
+  }
+  
+  .informacion-contacto p {
+    margin-bottom: 20px;
+  }
+  
+  .informacion-contacto i {
+    margin-right: 10px;
+  }
+  .seccion-presentacion {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .seccion-presentacion h1 {
+    margin-bottom: 10px;
+  }
+  
+  .seccion-presentacion h2 {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  .seccion-habilidades {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+   }
+   
+   .contenedor-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   
+   .habilidad {
+    margin: 20px;
+    width: calc(20% - 20px);
+    text-align: center;
+   }
+   
+   .imagen-habilidad {
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    border-radius: 10%;
+   }
+   
+   .habilidad h3 {
+    margin-bottom: 10px;
+   }
+   
+   .habilidad p {
+    font-size: 14px;
+    color: #666;
+   }
+   
